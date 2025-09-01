@@ -95,6 +95,8 @@ The tool generates a JSON file with the following structure:
 - Loki instances with many labels and label values may take some time to dump
 - If fetching values for a specific label fails, the tool continues with a warning
 - The time range (`-days`) affects which labels and values are discovered
+- For querying specific tenants in multi-tenant Loki environments, refer to the [LogCLI getting started](https://grafana.com/docs/loki/latest/query/logcli/getting-started/)
+
 
 ## License
 
